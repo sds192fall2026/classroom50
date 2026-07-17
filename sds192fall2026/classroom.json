@@ -1,0 +1,21 @@
+{
+  "schema": "classroom50/classroom/v1",
+  "name": "sds192fall2026",
+  "short_name": "sds192fall2026",
+  "term": "",
+  "org": "sds192fall2026",
+  "team": {
+    "id": 18566870,
+    "slug": "classroom50-sds192fall2026"
+  },
+  "teams": {
+    "instructor": {
+      "id": 18566871,
+      "slug": "classroom50-sds192fall2026-instructor"
+    },
+    "ta": {
+      "id": 18566872,
+      "slug": "classroom50-sds192fall2026-ta"
+    }
+  }
+}

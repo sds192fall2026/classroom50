@@ -1,4 +1,17 @@
 {
   "schema": "classroom50/assignments/v1",
-  "assignments": []
+  "assignments": [
+    {
+      "slug": "lab1",
+      "name": "Lab1",
+      "mode": "individual",
+      "autograder": "default",
+      "feedback_pr": true,
+      "template": {
+        "owner": "sds192fall2026",
+        "repo": "Lab1",
+        "branch": "main"
+      }
+    }
+  ]
 }

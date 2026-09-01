@@ -14,6 +14,13 @@ so the teacher reviews the full starter->latest diff with inline comments, and
 it auto-updates on every submission. PRs opened by GITHUB_TOKEN don't retrigger
 workflows, so there's no loop.
 
+Since issue #228 the accept clients (gh student accept / the web GUI) create
+the PR at accept time with the student's own token — same base/head, title,
+labels, and body (byte-mirrored via cli/shared/contract) — so it exists even
+with Actions disabled. find_pr matches by base+head only, so this script
+ADOPTS that PR; this create path remains the fallback for pre-feature repos
+and accepts whose best-effort PR step failed.
+
 Behavior (ported verbatim from the former inline bash):
   1. Freeze the base: create the `feedback` branch at BASE_SHA once, never
      advance it. If it already exists at a DIFFERENT sha, a student may have
@@ -36,6 +43,11 @@ Environment (set by the autograde-runner workflow's grade job):
   GITHUB_RUN_ID       for the fallback status target_url
   BASE_SHA            the trusted baseline commit to freeze the base at
   MODE                assignment mode (individual | group), for the PR label
+  FEEDBACK_PR_TEMPLATE  "true" when the assignment opts the Feedback PR body
+                        into the template repo's pull_request_template.md
+  TEMPLATE_REPO         <owner>/<repo> of the assignment's template (for the
+                        template-body read; empty when template-less)
+  TEMPLATE_BRANCH       the template branch to read the PR-body file from
 
 Exits 0 for every outcome (like runner.py): the status carries success vs
 failure vs error. Exits non-zero only on missing required env (invoked outside
@@ -187,12 +199,21 @@ def label_for_mode(mode: str) -> tuple[str, str]:
     return _LABELS.get((mode or "").strip().lower(), _LABELS["individual"])
 
 
-def pr_body(head: str) -> str:
-    """The Feedback PR body (GitHub Classroom-style)."""
+def pr_body(head: str, release_url: str) -> str:
+    """The Feedback PR body (GitHub Classroom-style).
+
+    release_url is the static `.../releases/latest` link (not a pinned tag), so
+    it self-updates as new submissions publish even though this body is written
+    once at PR creation and only refreshed to backfill a missing link.
+    """
     return "\n".join([
         ":wave:! Classroom 50 opened this pull request as a place for your "
-        "teacher to leave feedback on your work. It updates automatically. "
+        "teacher to leave feedback on your work. It stays up to date "
+        "automatically as you push. "
         "**Don't close or merge this pull request** unless your teacher tells you to.",
+        "",
+        f"Each commit is automatically graded — the latest autograding result "
+        f"is [here]({release_url}).",
         "",
         "Your teacher can leave comments and feedback on your code here. Click "
         "the **Subscribe** button to be notified when that happens.",
@@ -211,27 +232,31 @@ def pr_body(head: str) -> str:
         "- **Commits** lists each pushed commit; open one to see its changes.",
         "- Autograde results appear as the `classroom50/autograde` commit "
         "status / check on each submission.",
+        f"- The [latest autograding result]({release_url}) has the per-test "
+        f"detail behind that status.",
         "- This page is an overview — commits, line comments, and a general "
         "comment box below.",
         "",
         f"The base branch (`{BASE_BRANCH}`) is frozen at the starter so the diff "
-        f"always reflects the full body of work. The PR is managed automatically "
-        f"by the autograde runner; merging it is the teacher-side "
+        f"always reflects the full body of work. The PR is kept up to date "
+        f"automatically; merging it is the teacher-side "
         f"\"grading done\" signal.",
         "</details>",
     ])
 
 
-def create_pr(repo: str, head: str, mode: str) -> str:
-    """Create the Feedback PR, returning its URL. Best-effort labels it first.
-    Raises GhError on a create failure (caller handles the race)."""
+def create_pr(repo: str, head: str, mode: str, body: str) -> str:
+    """Create the Feedback PR with the given body, returning its URL.
+    Best-effort labels it first. Raises GhError on a create failure (caller
+    handles the race)."""
     label, color = label_for_mode(mode)
     # Best-effort label; never block PR creation on label setup.
     gh("label", "create", label, "--repo", repo, "--color", color,
        "--description", "Classroom 50 teacher-managed feedback PR", check=False)
     return gh("pr", "create", "--repo", repo,
               "--base", BASE_BRANCH, "--head", head,
-              "--title", "Feedback", "--body", pr_body(head), "--label", label)
+              "--title", "Feedback", "--body", body,
+              "--label", label)
 
 
 def existing_pr_url(repo: str, head: str) -> str:
@@ -242,18 +267,93 @@ def existing_pr_url(repo: str, head: str) -> str:
               "--jq", "(.[0] // {}).url // \"\"", check=False)
 
 
+# Native GitHub pull request template paths, probed in this order. Mirrors the
+# accept clients (cli/gh-student/feedback_pr.go, web feedbackPr.ts).
+_TEMPLATE_PR_BODY_PATHS = (
+    ".github/pull_request_template.md",
+    "pull_request_template.md",
+    "docs/pull_request_template.md",
+)
+
+# Cap the template read so an oversized/binary file can't blow up the PR
+# create (GitHub caps a PR body near 65_536 chars); over-limit falls back to
+# the built-in body, like a missing file.
+_TEMPLATE_PR_BODY_MAX_BYTES = 60_000
+
+
+def read_template_pr_body(template_repo: str, template_branch: str) -> str | None:
+    """The teacher-supplied PR body from the template repo, or None.
+
+    Reads the first existing of the native pull_request_template.md paths from
+    template_repo at template_branch, VERBATIM (no placeholder substitution).
+    Best-effort: a missing file, an empty-after-trim file, an over-size file,
+    or any read error (403 on a private template the runner token can't read,
+    5xx, timeout) returns None so the caller falls back to the built-in body.
+    """
+    if not (template_repo and template_branch):
+        return None
+    for path in _TEMPLATE_PR_BODY_PATHS:
+        content = gh("api",
+                     f"repos/{template_repo}/contents/{path}",
+                     "-H", "Accept: application/vnd.github.raw+json",
+                     "-f", f"ref={template_branch}", check=False)
+        if not content:
+            continue  # missing (404) or unreadable — try the next path
+        if len(content.encode("utf-8")) > _TEMPLATE_PR_BODY_MAX_BYTES:
+            print(f"::warning::template PR body {path} exceeds "
+                  f"{_TEMPLATE_PR_BODY_MAX_BYTES} bytes; using the built-in body")
+            return None
+        if not content.strip():
+            continue  # empty/whitespace-only — not a usable body
+        return content
+    return None
+
+
+def resolve_pr_body(head: str, release_url: str, use_template: bool,
+                    template_repo: str, template_branch: str) -> str:
+    """The Feedback PR body to create: the teacher template when the assignment
+    opted in (feedback_pr_template) and the template file is readable, else the
+    built-in body. The runner token (Actions GITHUB_TOKEN) may be unable to
+    read an external/private template, so this is best-effort by design."""
+    if use_template:
+        body = read_template_pr_body(template_repo, template_branch)
+        if body is not None:
+            return body
+        # The assignment opted into the template but the runner token couldn't
+        # read it (a private/external template the Actions GITHUB_TOKEN can't
+        # reach, or the file is absent). Surface it so a teacher can see this
+        # repo's Feedback PR diverges from the teacher-authored body the accept
+        # clients use, and reconcile via `gh teacher assignment feedback-pr`.
+        print(f"::warning::feedback_pr_template is set but the runner could not "
+              f"read a pull request template from {template_repo or '(no template)'}; "
+              f"using the built-in Feedback PR body for this repo")
+    return pr_body(head, release_url)
+
+
 # ---------------------------------------------------------------------------
 # Orchestration
 # ---------------------------------------------------------------------------
 
 
 def ensure_feedback_pr(repo: str, base_sha: str, mode: str, server_url: str,
-                       run_id: str) -> tuple[str, str, str]:
+                       run_id: str, use_template: bool = False,
+                       template_repo: str = "", template_branch: str = "",
+                       ) -> tuple[str, str, str]:
     """Maintain the one Feedback PR. Returns (state, description, url) where
-    state is success | failure | error. Ported verbatim from the inline bash;
-    the EXIT-trap status emission is replaced by main()'s finally block.
+    state is success | failure | error.
+
+    The runner ADOPTS an accept-time PR (find_pr matches by base+head) and never
+    rewrites its body, so a teacher-supplied full-replace body survives. On the
+    fallback create path (no PR exists) it honors the assignment settings: when
+    use_template is set and the template file is readable it uses the teacher
+    body, else the built-in body (best-effort — the runner token may not read an
+    external/private template).
     """
     run_url = f"{server_url}/{repo}/actions/runs/{run_id}"
+    # Static "latest" pointer (set-latest job keeps it current), not a pinned
+    # submit-tag URL — the body is written once at creation, so a tag would go
+    # stale but /releases/latest self-updates. See #262.
+    release_url = f"{server_url}/{repo}/releases/latest"
 
     head = head_branch(repo)  # GhError here -> main() reports error (no false success)
 
@@ -276,8 +376,10 @@ def ensure_feedback_pr(repo: str, base_sha: str, mode: str, server_url: str,
     # 2) Find or create the single PR.
     pr = find_pr(repo, head)
     if pr is None:
+        body = resolve_pr_body(head, release_url, use_template,
+                               template_repo, template_branch)
         try:
-            url = create_pr(repo, head, mode)
+            url = create_pr(repo, head, mode, body)
         except GhError as exc:
             # A concurrent run (submit/* tag vs main push use different
             # concurrency groups) can win the create race; re-query before
@@ -318,6 +420,10 @@ def ensure_feedback_pr(repo: str, base_sha: str, mode: str, server_url: str,
         print(f"Reopened Feedback PR #{pr['number']} (was closed unmerged)")
         return ("success", "Feedback PR reopened", url)
 
+    # Adopt-only: never edit an existing body. The accept-time creator (or a
+    # prior run) authored it; the runner leaves it untouched so a teacher
+    # full-replace body survives. The release link self-updates, so a body
+    # written once at creation needs no refresh.
     print(f"Feedback PR #{pr['number']} already present "
           f"(state={pr['state']} merged={pr['mergedAt'] or 'none'}); nothing to do")
     return ("success", "Feedback PR in place", url)
@@ -344,6 +450,12 @@ def main() -> int:
     server_url = os.environ.get("GITHUB_SERVER_URL", "https://github.com").strip()
     run_id = os.environ.get("GITHUB_RUN_ID", "").strip()
     mode = os.environ.get("MODE", "").strip()
+    # Feedback-PR-template opt-in (feedback_pr_template) + the template ref, so
+    # the fallback create path can honor the assignment settings. All three come
+    # from assignments.json via the setup job; absent/empty means "built-in body".
+    use_template = os.environ.get("FEEDBACK_PR_TEMPLATE", "").strip().lower() == "true"
+    template_repo = os.environ.get("TEMPLATE_REPO", "").strip()
+    template_branch = os.environ.get("TEMPLATE_BRANCH", "").strip()
 
     if not (repo and sha and base_sha):
         print("::error::ensure_feedback_pr requires GITHUB_REPOSITORY, GITHUB_SHA, "
@@ -356,7 +468,12 @@ def main() -> int:
     state, description = "error", "Feedback PR step did not complete"
     url = f"{server_url}/{repo}/actions/runs/{run_id}"
     try:
-        state, description, url = ensure_feedback_pr(repo, base_sha, mode, server_url, run_id)
+        state, description, url = ensure_feedback_pr(
+            repo, base_sha, mode, server_url, run_id,
+            use_template=use_template,
+            template_repo=template_repo,
+            template_branch=template_branch,
+        )
     except GhError as exc:
         print(f"::warning::Feedback PR step failed: {exc}")
     finally:

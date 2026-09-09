@@ -11,6 +11,9 @@
         "owner": "sds192fall2026",
         "repo": "Lab1",
         "branch": "main"
+      },
+      "grading": {
+        "mode": "off"
       }
     }
   ]

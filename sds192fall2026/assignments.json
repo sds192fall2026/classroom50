@@ -15,6 +15,24 @@
       "grading": {
         "mode": "off"
       }
+    },
+    {
+      "slug": "lab2",
+      "name": "Lab2",
+      "mode": "individual",
+      "autograder": "default",
+      "feedback_pr": true,
+      "no_autograder": true,
+      "copy_about": true,
+      "copy_topics": true,
+      "template": {
+        "owner": "sds192fall2026",
+        "repo": "Lab2",
+        "branch": "main"
+      },
+      "grading": {
+        "mode": "off"
+      }
     }
   ]
 }

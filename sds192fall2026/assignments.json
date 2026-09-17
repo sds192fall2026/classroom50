@@ -30,6 +30,13 @@
         "repo": "Lab2",
         "branch": "main"
       },
+      "available_from": "2026-09-17T19:00:00Z",
+      "available_from_meta": {
+        "input": "2026-09-17T15:00:00",
+        "zone": "America/New_York",
+        "offset": "-04:00",
+        "source": "auto-detected"
+      },
       "grading": {
         "mode": "off"
       }

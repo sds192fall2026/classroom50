@@ -1,4 +1,11 @@
 {
   "schema": "classroom50/scores/v1",
-  "assignments": {}
+  "assignments": {
+    "lab2": {
+      "type": "individual",
+      "entries": [],
+      "collected_at": "2026-09-17T21:05:24Z",
+      "detected": []
+    }
+  }
 }

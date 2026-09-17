@@ -558,6 +558,12 @@
       ],
       "collected_at": "2026-09-17T21:06:38Z",
       "detected": []
+    },
+    "project1": {
+      "type": "team",
+      "entries": [],
+      "collected_at": "2026-09-17T23:53:09Z",
+      "detected": []
     }
   }
 }

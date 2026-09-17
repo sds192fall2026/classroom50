@@ -6,6 +6,558 @@
       "entries": [],
       "collected_at": "2026-09-17T21:05:24Z",
       "detected": []
+    },
+    "lab1": {
+      "type": "individual",
+      "entries": [
+        {
+          "owner": "maryalicewieland",
+          "email": "mwieland@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "maryalicewieland",
+              "submission": "submit/2026-09-11T16-59-17Z-a1654e9",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-maryalicewieland/commit/a1654e9fe473d02212b81dba6b261d7852e622b8",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-maryalicewieland/releases/tag/submit%2F2026-09-11T16-59-17Z-a1654e9",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-maryalicewieland/compare/f19ba0cf84da3cc73c32fe84f0683f5f63d4eae8...a1654e9fe473d02212b81dba6b261d7852e622b8",
+              "datetime": "2026-09-11T16:58:53Z",
+              "graded_at": "2026-09-11T16:59:27Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "maryalicewieland",
+                "id": 157980517
+              }
+            }
+          ]
+        },
+        {
+          "owner": "yilingzong",
+          "email": "yzong@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "yilingzong",
+              "submission": "submit/2026-09-11T19-40-30Z-1371cd6",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-yilingzong/commit/1371cd6870f16043423988f90a727e0168e9ee3a",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-yilingzong/releases/tag/submit%2F2026-09-11T19-40-30Z-1371cd6",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-yilingzong/compare/a96381657373620e042cdc8fea94958af4ec5054...1371cd6870f16043423988f90a727e0168e9ee3a",
+              "datetime": "2026-09-11T19:40:09Z",
+              "graded_at": "2026-09-11T19:40:45Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "yilingzong",
+                "id": 166666769
+              }
+            }
+          ]
+        },
+        {
+          "owner": "Michelle-Wu02",
+          "email": "mwu02@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "michelle-wu02",
+              "submission": "submit/2026-09-13T23-29-57Z-8d5e48b",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-michelle-wu02/commit/8d5e48bafc07682b6c4d1aad89728dc86d1332b6",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-michelle-wu02/releases/tag/submit%2F2026-09-13T23-29-57Z-8d5e48b",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-michelle-wu02/compare/68f8b6096f555b5ccb247445eed31722fc4464b1...8d5e48bafc07682b6c4d1aad89728dc86d1332b6",
+              "datetime": "2026-09-13T23:29:07Z",
+              "graded_at": "2026-09-13T23:30:06Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "Michelle-Wu02",
+                "id": 197291923
+              }
+            }
+          ]
+        },
+        {
+          "owner": "eshehab3137",
+          "email": "eshehab@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "eshehab3137",
+              "submission": "submit/2026-09-11T12-55-26Z-76c9e76",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-eshehab3137/commit/76c9e76fd21bd64eb49650d30d1a09c993419df6",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-eshehab3137/releases/tag/submit%2F2026-09-11T12-55-26Z-76c9e76",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-eshehab3137/compare/f7d838b9ed27758c5cb5eb121d068faa79e5b71f...76c9e76fd21bd64eb49650d30d1a09c993419df6",
+              "datetime": "2026-09-11T12:54:10Z",
+              "graded_at": "2026-09-11T12:55:37Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "eshehab3137",
+                "id": 258284562
+              }
+            }
+          ]
+        },
+        {
+          "owner": "macarr103",
+          "email": "macarr@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "macarr103",
+              "submission": "submit/2026-09-11T16-12-05Z-efe3c88",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-macarr103/commit/efe3c88d2ca38c80ef0328302a22dd448a0f59d1",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-macarr103/releases/tag/submit%2F2026-09-11T16-12-05Z-efe3c88",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-macarr103/compare/93e6995bf5234fa4f9809b99f7c7e7d13aaee6b6...efe3c88d2ca38c80ef0328302a22dd448a0f59d1",
+              "datetime": "2026-09-11T16:10:41Z",
+              "graded_at": "2026-09-11T16:12:17Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "macarr103",
+                "id": 327091088
+              }
+            }
+          ]
+        },
+        {
+          "owner": "siningemma",
+          "email": "eewang@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "siningemma",
+              "submission": "submit/2026-09-12T19-17-51Z-3beae75",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-siningemma/commit/3beae75df09765262ef9158f9347e1a6e7d09dbe",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-siningemma/releases/tag/submit%2F2026-09-12T19-17-51Z-3beae75",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-siningemma/compare/8d1a309294b144c8db26a8cfe050cab36dc3610e...3beae75df09765262ef9158f9347e1a6e7d09dbe",
+              "datetime": "2026-09-12T19:16:05Z",
+              "graded_at": "2026-09-12T19:18:04Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "siningemma",
+                "id": 327175797
+              }
+            }
+          ]
+        },
+        {
+          "owner": "gdomefa",
+          "email": "gdomefa@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "gdomefa",
+              "submission": "submit/2026-09-11T20-33-42Z-39e65c8",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-gdomefa/commit/39e65c844efed1b24241e0ec0128e327d265faf6",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-gdomefa/releases/tag/submit%2F2026-09-11T20-33-42Z-39e65c8",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-gdomefa/compare/05cf250cff98c3797c5f1803e01d065de1aca725...39e65c844efed1b24241e0ec0128e327d265faf6",
+              "datetime": "2026-09-11T20:32:56Z",
+              "graded_at": "2026-09-11T20:33:56Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "gdomefa",
+                "id": 327177603
+              }
+            }
+          ]
+        },
+        {
+          "owner": "mollyecrawford25",
+          "email": "mcrawford@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "mollyecrawford25",
+              "submission": "submit/2026-09-11T13-10-38Z-4549dfd",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-mollyecrawford25/commit/4549dfdd6b2353b4de4d713988abbc55d1dc0138",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-mollyecrawford25/releases/tag/submit%2F2026-09-11T13-10-38Z-4549dfd",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-mollyecrawford25/compare/6c5f153eb223c39dad1f84603e96701636f8f960...4549dfdd6b2353b4de4d713988abbc55d1dc0138",
+              "datetime": "2026-09-11T13:09:44Z",
+              "graded_at": "2026-09-11T13:10:49Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "mollyecrawford25",
+                "id": 327476398
+              }
+            }
+          ]
+        },
+        {
+          "owner": "FridaLi0122",
+          "email": "fli19@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "fridali0122",
+              "submission": "submit/2026-09-11T20-01-43Z-79f261b",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-fridali0122/commit/79f261bde1ee7db7f41b88ac315752e2b8827481",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-fridali0122/releases/tag/submit%2F2026-09-11T20-01-43Z-79f261b",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-fridali0122/compare/2a8c8fc2399f905fe06a04790023d8d884c94d72...79f261bde1ee7db7f41b88ac315752e2b8827481",
+              "datetime": "2026-09-11T20:00:48Z",
+              "graded_at": "2026-09-11T20:01:54Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "FridaLi0122",
+                "id": 327579327
+              }
+            }
+          ]
+        },
+        {
+          "owner": "folayemi294",
+          "email": "foladunni@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "folayemi294",
+              "submission": "submit/2026-09-11T16-23-25Z-85b2f28",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-folayemi294/commit/85b2f28fb5c331d5d8d1750e494024ac4918f0e7",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-folayemi294/releases/tag/submit%2F2026-09-11T16-23-25Z-85b2f28",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-folayemi294/compare/2363986f6c5aa82131967a778bd60ee2a3a84a30...85b2f28fb5c331d5d8d1750e494024ac4918f0e7",
+              "datetime": "2026-09-11T16:22:34Z",
+              "graded_at": "2026-09-11T16:23:39Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "folayemi294",
+                "id": 327964600
+              }
+            }
+          ]
+        },
+        {
+          "owner": "MadelynHu",
+          "email": "mshu@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "madelynhu",
+              "submission": "submit/2026-09-13T16-17-29Z-cf62905",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-madelynhu/commit/cf62905b98ccc6ce320e6eadd996799d1c68e6d1",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-madelynhu/releases/tag/submit%2F2026-09-13T16-17-29Z-cf62905",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-madelynhu/compare/07bd77a97356949101890aa0feff6c730bb45b42...cf62905b98ccc6ce320e6eadd996799d1c68e6d1",
+              "datetime": "2026-09-13T16:16:57Z",
+              "graded_at": "2026-09-13T16:17:43Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "MadelynHu",
+                "id": 327964618
+              }
+            }
+          ]
+        },
+        {
+          "owner": "dperezorellana-ui",
+          "email": "dperezorellana@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "dperezorellana-ui",
+              "submission": "submit/2026-09-11T15-37-05Z-30b4589",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-dperezorellana-ui/commit/30b4589261fc8447b59263b0d8cb3bae8c48411b",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-dperezorellana-ui/releases/tag/submit%2F2026-09-11T15-37-05Z-30b4589",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-dperezorellana-ui/compare/206925768b12fd400682f09c0c699437c5d15c0a...30b4589261fc8447b59263b0d8cb3bae8c48411b",
+              "datetime": "2026-09-11T15:35:59Z",
+              "graded_at": "2026-09-11T15:37:16Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "dperezorellana-ui",
+                "id": 327964874
+              }
+            }
+          ]
+        },
+        {
+          "owner": "mienkaufman8",
+          "email": "mkaufman66@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "mienkaufman8",
+              "submission": "submit/2026-09-11T15-04-59Z-3dba113",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-mienkaufman8/commit/3dba113f12ae569bb20236abc09b3cea1763ec78",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-mienkaufman8/releases/tag/submit%2F2026-09-11T15-04-59Z-3dba113",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-mienkaufman8/compare/4b93d09e24c3a08812ac3f81aab3f5222869afb4...3dba113f12ae569bb20236abc09b3cea1763ec78",
+              "datetime": "2026-09-11T15:04:34Z",
+              "graded_at": "2026-09-11T15:05:13Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "mienkaufman8",
+                "id": 327965056
+              }
+            }
+          ]
+        },
+        {
+          "owner": "EveWasylik",
+          "email": "ewasylik@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "evewasylik",
+              "submission": "submit/2026-09-11T14-08-01Z-1f3244c",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-evewasylik/commit/1f3244cc21e82e6cc8f7f2085337652b5aa0568c",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-evewasylik/releases/tag/submit%2F2026-09-11T14-08-01Z-1f3244c",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-evewasylik/compare/17e1cff7cf288c253e50312b9dec6eda9edd8b85...1f3244cc21e82e6cc8f7f2085337652b5aa0568c",
+              "datetime": "2026-09-11T14:07:30Z",
+              "graded_at": "2026-09-11T14:08:16Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "EveWasylik",
+                "id": 327965424
+              }
+            }
+          ]
+        },
+        {
+          "owner": "TinaLu56",
+          "email": "tlu@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "tinalu56",
+              "submission": "submit/2026-09-11T19-55-17Z-7ba01fb",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-tinalu56/commit/7ba01fbe8acb21e79afa5384b47ad51069fa5c5f",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-tinalu56/releases/tag/submit%2F2026-09-11T19-55-17Z-7ba01fb",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-tinalu56/compare/def965a202c7517b5fbdecfb99d2a9626b222828...7ba01fbe8acb21e79afa5384b47ad51069fa5c5f",
+              "datetime": "2026-09-11T19:54:59Z",
+              "graded_at": "2026-09-11T19:55:29Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "TinaLu56",
+                "id": 327965474
+              }
+            }
+          ]
+        },
+        {
+          "owner": "Rachjmg",
+          "email": "rgardner@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "rachjmg",
+              "submission": "submit/2026-09-13T22-27-09Z-4db35a7",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-rachjmg/commit/4db35a74a2d582ef7752827ff41dedf81e57c438",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-rachjmg/releases/tag/submit%2F2026-09-13T22-27-09Z-4db35a7",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-rachjmg/compare/eb7332284c63dd45061fa83e945e4e42e2ba6247...4db35a74a2d582ef7752827ff41dedf81e57c438",
+              "datetime": "2026-09-13T22:26:13Z",
+              "graded_at": "2026-09-13T22:27:22Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "Rachjmg",
+                "id": 327966212
+              }
+            }
+          ]
+        },
+        {
+          "owner": "KarenAbdelsayed",
+          "first_name": "Karen",
+          "last_name": "Abdelsayed",
+          "email": "kabdelsayed@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "karenabdelsayed",
+              "submission": "submit/2026-09-17T02-23-21Z-52d21cc",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-karenabdelsayed/commit/52d21cc6dbb5774475e7cb6740a2c12530b1a653",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-karenabdelsayed/releases/tag/submit%2F2026-09-17T02-23-21Z-52d21cc",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-karenabdelsayed/compare/9bc18b15f75d52b9e0560274bdff2cd6391fbb6e...52d21cc6dbb5774475e7cb6740a2c12530b1a653",
+              "datetime": "2026-09-17T02:22:29Z",
+              "graded_at": "2026-09-17T02:23:32Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "KarenAbdelsayed",
+                "id": 327966857
+              }
+            }
+          ]
+        },
+        {
+          "owner": "JuliaBergles1",
+          "email": "jbergles@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "juliabergles1",
+              "submission": "submit/2026-09-11T12-58-45Z-63757d1",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-juliabergles1/commit/63757d13d0dc5fedc216be37a85543893dd66ba2",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-juliabergles1/releases/tag/submit%2F2026-09-11T12-58-45Z-63757d1",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-juliabergles1/compare/e4fe013eeb6edb175b1ce8a64b1771a8472296e7...63757d13d0dc5fedc216be37a85543893dd66ba2",
+              "datetime": "2026-09-11T12:57:53Z",
+              "graded_at": "2026-09-11T12:58:57Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "JuliaBergles1",
+                "id": 327967027
+              }
+            }
+          ]
+        },
+        {
+          "owner": "ZoeYang915",
+          "email": "zyang14@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "zoeyang915",
+              "submission": "submit/2026-09-15T01-00-47Z-315fd4d",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-zoeyang915/commit/315fd4df3232d0aed6f6c88bec7f8cf8c1ef5fc0",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-zoeyang915/releases/tag/submit%2F2026-09-15T01-00-47Z-315fd4d",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-zoeyang915/compare/ba09d22014139207098a9be7fe1a570be27587e4...315fd4df3232d0aed6f6c88bec7f8cf8c1ef5fc0",
+              "datetime": "2026-09-15T00:59:51Z",
+              "graded_at": "2026-09-15T01:01:00Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "ZoeYang915",
+                "id": 327967156
+              }
+            }
+          ]
+        },
+        {
+          "owner": "EileenXu524",
+          "email": "exu95@smith.edu",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "eileenxu524",
+              "submission": "submit/2026-09-11T19-47-25Z-a4ea02c",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-eileenxu524/commit/a4ea02cf2f67fcd4f00e49e0c11afe180f888741",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-eileenxu524/releases/tag/submit%2F2026-09-11T19-47-25Z-a4ea02c",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-eileenxu524/compare/68920a2fd23eb8c13fd302df449a104f0312c4f6...a4ea02cf2f67fcd4f00e49e0c11afe180f888741",
+              "datetime": "2026-09-11T19:47:06Z",
+              "graded_at": "2026-09-11T19:47:36Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "EileenXu524",
+                "id": 327968871
+              }
+            },
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "eileenxu524",
+              "submission": "submit/2026-09-11T14-57-44Z-ede2242",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-eileenxu524/commit/ede224278bbf0963eb76ba0b6bf65a9bd2fee6a4",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-eileenxu524/releases/tag/submit%2F2026-09-11T14-57-44Z-ede2242",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-eileenxu524/compare/68920a2fd23eb8c13fd302df449a104f0312c4f6...ede224278bbf0963eb76ba0b6bf65a9bd2fee6a4",
+              "datetime": "2026-09-11T14:57:14Z",
+              "graded_at": "2026-09-11T14:57:58Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "EileenXu524",
+                "id": 327968871
+              }
+            }
+          ]
+        },
+        {
+          "owner": "amberzhanglc",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "sds192fall2026",
+              "assignment_type": "individual",
+              "owner": "amberzhanglc",
+              "submission": "submit/2026-09-11T20-49-35Z-7d21139",
+              "commit": "https://github.com/sds192fall2026/sds192fall2026-lab1-amberzhanglc/commit/7d21139cdce0ca49239ea1c4a3854e4759e07d44",
+              "release": "https://github.com/sds192fall2026/sds192fall2026-lab1-amberzhanglc/releases/tag/submit%2F2026-09-11T20-49-35Z-7d21139",
+              "review": "https://github.com/sds192fall2026/sds192fall2026-lab1-amberzhanglc/compare/847065a2d565115eff18f94953a445eb44d380a9...7d21139cdce0ca49239ea1c4a3854e4759e07d44",
+              "datetime": "2026-09-11T20:49:16Z",
+              "graded_at": "2026-09-11T20:49:46Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "amberzhanglc",
+                "id": 158588800
+              }
+            }
+          ]
+        }
+      ],
+      "collected_at": "2026-09-17T21:06:38Z",
+      "detected": []
     }
   }
 }

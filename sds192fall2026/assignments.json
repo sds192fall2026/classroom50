@@ -49,6 +49,22 @@
       "grading": {
         "mode": "off"
       }
+    },
+    {
+      "slug": "lab3",
+      "name": "Lab3",
+      "mode": "individual",
+      "autograder": "default",
+      "feedback_pr": true,
+      "no_autograder": true,
+      "template": {
+        "owner": "sds192fall2026",
+        "repo": "Lab3",
+        "branch": "main"
+      },
+      "grading": {
+        "mode": "off"
+      }
     }
   ]
 }

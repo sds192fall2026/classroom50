@@ -4,8 +4,135 @@
     "lab2": {
       "type": "individual",
       "entries": [],
-      "collected_at": "2026-09-17T21:05:24Z",
-      "detected": []
+      "collected_at": "2026-09-27T17:47:29Z",
+      "detected": [
+        {
+          "owner": "dperezorellana-ui",
+          "count": 3,
+          "latest_datetime": "2026-09-18T15:34:13Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "EileenXu524",
+          "count": 2,
+          "latest_datetime": "2026-09-18T13:04:33Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "eshehab3137",
+          "count": 1,
+          "latest_datetime": "2026-09-18T12:37:33Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "EveWasylik",
+          "count": 2,
+          "latest_datetime": "2026-09-18T13:06:59Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "folayemi294",
+          "count": 3,
+          "latest_datetime": "2026-09-18T13:32:25Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "FridaLi0122",
+          "count": 1,
+          "latest_datetime": "2026-09-18T13:04:58Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "gdomefa",
+          "count": 4,
+          "latest_datetime": "2026-09-19T21:00:04Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "JuliaBergles1",
+          "count": 4,
+          "latest_datetime": "2026-09-18T13:08:08Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "KarenAbdelsayed",
+          "count": 2,
+          "latest_datetime": "2026-09-21T19:42:31Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "macarr103",
+          "count": 2,
+          "latest_datetime": "2026-09-18T12:45:07Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "MadelynHu",
+          "count": 3,
+          "latest_datetime": "2026-09-18T13:07:03Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "maryalicewieland",
+          "count": 3,
+          "latest_datetime": "2026-09-18T15:49:35Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "Michelle-Wu02",
+          "count": 2,
+          "latest_datetime": "2026-09-23T01:42:22Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "mienkaufman8",
+          "count": 1,
+          "latest_datetime": "2026-09-18T13:09:10Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "mollyecrawford25",
+          "count": 2,
+          "latest_datetime": "2026-09-18T13:02:59Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "Rachjmg",
+          "count": 2,
+          "latest_datetime": "2026-09-18T13:01:07Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "scao53",
+          "count": 1,
+          "latest_datetime": "2026-09-18T12:37:32Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "siningemma",
+          "count": 1,
+          "latest_datetime": "2026-09-20T17:16:43Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "TinaLu56",
+          "count": 3,
+          "latest_datetime": "2026-09-18T12:53:36Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "yilingzong",
+          "count": 8,
+          "latest_datetime": "2026-09-23T01:49:03Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "ZoeYang915",
+          "count": 1,
+          "latest_datetime": "2026-09-18T19:55:06Z",
+          "kind": "commit"
+        }
+      ]
     },
     "lab1": {
       "type": "individual",

@@ -1,0 +1,97 @@
+{
+  "schema": "classroom50/teams/v1",
+  "assignments": {
+    "project1": {
+      "teams": [
+        {
+          "slug": "classroom50-group-2cd97678ae4945d8-1",
+          "id": 19558589,
+          "name": "Project1-Group0",
+          "members": [
+            "scao53",
+            "amberzhanglc"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-2cd97678ae4945d8-2",
+          "id": 19632990,
+          "name": "Project1-Group8",
+          "members": [
+            "mollyecrawford25",
+            "MadelynHu"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-2cd97678ae4945d8-3",
+          "id": 19633005,
+          "name": "Project1-Group4",
+          "members": [
+            "macarr103",
+            "mienkaufman8"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-2cd97678ae4945d8-4",
+          "id": 19633009,
+          "name": "Project1-Group7",
+          "members": [
+            "TinaLu56",
+            "JuliaBergles1"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-2cd97678ae4945d8-5",
+          "id": 19633016,
+          "name": "Project1-Group3",
+          "members": [
+            "EveWasylik",
+            "KarenAbdelsayed"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-2cd97678ae4945d8-6",
+          "id": 19633024,
+          "members": [
+            "yilingzong",
+            "Michelle-Wu02"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-2cd97678ae4945d8-7",
+          "id": 19633259,
+          "name": "Project1-Group9",
+          "members": [
+            "siningemma",
+            "gdomefa"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-2cd97678ae4945d8-8",
+          "id": 19633280,
+          "name": "Project1-Group10",
+          "members": [
+            "dperezorellana-ui",
+            "EileenXu524"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-2cd97678ae4945d8-9",
+          "id": 19739598,
+          "name": "Project1-Group6",
+          "members": [
+            "FridaLi0122"
+          ],
+          "formation": "student"
+        }
+      ]
+    }
+  }
+}

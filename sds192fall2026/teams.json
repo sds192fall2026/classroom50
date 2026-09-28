@@ -4,16 +4,6 @@
     "project1": {
       "teams": [
         {
-          "slug": "classroom50-group-2cd97678ae4945d8-1",
-          "id": 19558589,
-          "name": "Project1-Group0",
-          "members": [
-            "scao53",
-            "amberzhanglc"
-          ],
-          "formation": "student"
-        },
-        {
           "slug": "classroom50-group-2cd97678ae4945d8-2",
           "id": 19632990,
           "name": "Project1-Group8",

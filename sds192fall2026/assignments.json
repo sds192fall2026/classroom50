@@ -65,6 +65,22 @@
       "grading": {
         "mode": "off"
       }
+    },
+    {
+      "slug": "lab4",
+      "name": "Lab4",
+      "mode": "individual",
+      "autograder": "default",
+      "feedback_pr": true,
+      "no_autograder": true,
+      "template": {
+        "owner": "sds192fall2026",
+        "repo": "Lab4",
+        "branch": "main"
+      },
+      "grading": {
+        "mode": "off"
+      }
     }
   ]
 }

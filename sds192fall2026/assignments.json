@@ -81,6 +81,22 @@
       "grading": {
         "mode": "off"
       }
+    },
+    {
+      "slug": "lab5",
+      "name": "Lab5",
+      "mode": "individual",
+      "autograder": "default",
+      "feedback_pr": true,
+      "no_autograder": true,
+      "template": {
+        "owner": "sds192fall2026",
+        "repo": "Lab5",
+        "branch": "main"
+      },
+      "grading": {
+        "mode": "off"
+      }
     }
   ]
 }

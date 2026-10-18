@@ -689,8 +689,19 @@
     "project1": {
       "type": "team",
       "entries": [],
-      "collected_at": "2026-10-07T18:33:08Z",
+      "collected_at": "2026-10-18T23:39:24Z",
       "detected": [
+        {
+          "owner": "group-1",
+          "count": 6,
+          "latest_datetime": "2026-10-09T00:29:18Z",
+          "kind": "commit",
+          "member_usernames": [
+            "maryalicewieland",
+            "rachjmg"
+          ],
+          "team_slug": "classroom50-group-2cd97678ae4945d8-1"
+        },
         {
           "owner": "group-10",
           "count": 5,
@@ -734,6 +745,16 @@
             "tinalu56"
           ],
           "team_slug": "classroom50-group-2cd97678ae4945d8-4"
+        },
+        {
+          "owner": "group-5",
+          "count": 2,
+          "latest_datetime": "2026-10-13T05:31:07Z",
+          "kind": "commit",
+          "member_usernames": [
+            "karenabdelsayed"
+          ],
+          "team_slug": "classroom50-group-2cd97678ae4945d8-5"
         },
         {
           "owner": "group-7",

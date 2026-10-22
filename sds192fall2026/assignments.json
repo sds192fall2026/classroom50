@@ -97,6 +97,22 @@
       "grading": {
         "mode": "off"
       }
+    },
+    {
+      "slug": "lab6",
+      "name": "Lab6",
+      "mode": "individual",
+      "autograder": "default",
+      "feedback_pr": true,
+      "no_autograder": true,
+      "template": {
+        "owner": "sds192fall2026",
+        "repo": "Lab6",
+        "branch": "main"
+      },
+      "grading": {
+        "mode": "off"
+      }
     }
   ]
 }

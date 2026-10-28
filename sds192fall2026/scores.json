@@ -990,6 +990,67 @@
           "kind": "commit"
         }
       ]
+    },
+    "lab5": {
+      "type": "individual",
+      "entries": [],
+      "collected_at": "2026-10-28T13:35:37Z",
+      "detected": [
+        {
+          "owner": "dperezorellana-ui",
+          "count": 2,
+          "latest_datetime": "2026-10-19T20:50:59Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "EileenXu524",
+          "count": 1,
+          "latest_datetime": "2026-10-17T20:24:59Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "folayemi294",
+          "count": 1,
+          "latest_datetime": "2026-10-24T17:26:47Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "gdomefa",
+          "count": 1,
+          "latest_datetime": "2026-10-21T19:49:30Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "macarr103",
+          "count": 2,
+          "latest_datetime": "2026-10-16T13:09:53Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "mienkaufman8",
+          "count": 1,
+          "latest_datetime": "2026-10-21T20:59:38Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "mollyecrawford25",
+          "count": 1,
+          "latest_datetime": "2026-10-17T16:21:45Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "siningemma",
+          "count": 1,
+          "latest_datetime": "2026-10-21T02:41:44Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "TinaLu56",
+          "count": 1,
+          "latest_datetime": "2026-10-16T13:01:26Z",
+          "kind": "commit"
+        }
+      ]
     }
   }
 }

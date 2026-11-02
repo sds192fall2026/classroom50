@@ -113,24 +113,6 @@
       "grading": {
         "mode": "off"
       }
-    },
-    {
-      "slug": "project2",
-      "name": "Project2",
-      "mode": "team",
-      "autograder": "default",
-      "feedback_pr": true,
-      "no_autograder": true,
-      "template": {
-        "owner": "sds192fall2026",
-        "repo": "Project2",
-        "branch": "main"
-      },
-      "max_group_size": 3,
-      "team_formation": "student",
-      "grading": {
-        "mode": "off"
-      }
     }
   ]
 }

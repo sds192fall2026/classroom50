@@ -148,7 +148,8 @@
           "id": 20467134,
           "name": "Lab7-Group7",
           "members": [
-            "folayemi294"
+            "folayemi294",
+            "JuliaBergles1"
           ],
           "formation": "student"
         },
@@ -157,7 +158,8 @@
           "id": 20467214,
           "name": "Lab7-Group1",
           "members": [
-            "mienkaufman8"
+            "mienkaufman8",
+            "KarenAbdelsayed"
           ],
           "formation": "student"
         },
@@ -172,9 +174,20 @@
         {
           "slug": "classroom50-group-9f22f334e34ade68-9",
           "id": 20467264,
+          "name": "Lab7-Group3",
           "members": [
             "MadelynHu",
             "Rachjmg"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-9f22f334e34ade68-10",
+          "id": 20467298,
+          "name": "Lab7-Group4",
+          "members": [
+            "maryalicewieland",
+            "eshehab3137"
           ],
           "formation": "student"
         }

@@ -93,6 +93,92 @@
           "formation": "student"
         }
       ]
+    },
+    "lab7": {
+      "teams": [
+        {
+          "slug": "classroom50-group-9f22f334e34ade68-1",
+          "id": 20458795,
+          "name": "Lab7-Group0",
+          "members": [
+            "scao53"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-9f22f334e34ade68-2",
+          "id": 20465952,
+          "name": "Lab7-Group6",
+          "members": [
+            "mollyecrawford25",
+            "TinaLu56"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-9f22f334e34ade68-3",
+          "id": 20466782,
+          "name": "Lab7-Group2",
+          "members": [
+            "gdomefa",
+            "dperezorellana-ui"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-9f22f334e34ade68-4",
+          "id": 20466983,
+          "name": "Lab7-Group8",
+          "members": [
+            "macarr103"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-9f22f334e34ade68-5",
+          "id": 20467133,
+          "name": "Lab7-Group5",
+          "members": [
+            "FridaLi0122"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-9f22f334e34ade68-6",
+          "id": 20467134,
+          "name": "Lab7-Group7",
+          "members": [
+            "folayemi294"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-9f22f334e34ade68-7",
+          "id": 20467214,
+          "name": "Lab7-Group1",
+          "members": [
+            "mienkaufman8"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-9f22f334e34ade68-8",
+          "id": 20467242,
+          "members": [
+            "MadelynHu"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-9f22f334e34ade68-9",
+          "id": 20467264,
+          "members": [
+            "MadelynHu",
+            "Rachjmg"
+          ],
+          "formation": "student"
+        }
+      ]
     }
   }
 }

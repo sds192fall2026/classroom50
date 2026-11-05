@@ -149,6 +149,22 @@
       "grading": {
         "mode": "off"
       }
+    },
+    {
+      "slug": "lab8",
+      "name": "Lab8",
+      "mode": "individual",
+      "autograder": "default",
+      "feedback_pr": true,
+      "no_autograder": true,
+      "template": {
+        "owner": "sds192fall2026",
+        "repo": "Lab8",
+        "branch": "main"
+      },
+      "grading": {
+        "mode": "off"
+      }
     }
   ]
 }

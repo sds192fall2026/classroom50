@@ -1093,6 +1093,109 @@
           "kind": "commit"
         }
       ]
+    },
+    "lab6": {
+      "type": "individual",
+      "entries": [],
+      "collected_at": "2026-11-06T12:09:25Z",
+      "detected": [
+        {
+          "owner": "dperezorellana-ui",
+          "count": 1,
+          "latest_datetime": "2026-10-25T15:25:46Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "EileenXu524",
+          "count": 1,
+          "latest_datetime": "2026-11-02T19:44:17Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "eshehab3137",
+          "count": 1,
+          "latest_datetime": "2026-11-06T01:05:22Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "folayemi294",
+          "count": 1,
+          "latest_datetime": "2026-11-04T14:54:53Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "FridaLi0122",
+          "count": 1,
+          "latest_datetime": "2026-10-23T15:01:03Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "gdomefa",
+          "count": 4,
+          "latest_datetime": "2026-11-04T20:37:06Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "JuliaBergles1",
+          "count": 1,
+          "latest_datetime": "2026-11-04T22:06:21Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "KarenAbdelsayed",
+          "count": 3,
+          "latest_datetime": "2026-11-05T22:59:12Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "macarr103",
+          "count": 2,
+          "latest_datetime": "2026-11-04T18:07:13Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "MadelynHu",
+          "count": 2,
+          "latest_datetime": "2026-10-25T16:08:12Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "maryalicewieland",
+          "count": 2,
+          "latest_datetime": "2026-11-06T01:08:13Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "mienkaufman8",
+          "count": 1,
+          "latest_datetime": "2026-10-29T21:56:15Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "mollyecrawford25",
+          "count": 1,
+          "latest_datetime": "2026-11-03T19:58:13Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "Rachjmg",
+          "count": 1,
+          "latest_datetime": "2026-11-06T01:31:06Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "siningemma",
+          "count": 2,
+          "latest_datetime": "2026-11-03T23:05:41Z",
+          "kind": "commit"
+        },
+        {
+          "owner": "TinaLu56",
+          "count": 1,
+          "latest_datetime": "2026-10-23T16:07:36Z",
+          "kind": "commit"
+        }
+      ]
     }
   }
 }

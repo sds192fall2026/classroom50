@@ -185,6 +185,107 @@
           "formation": "student"
         }
       ]
+    },
+    "project2": {
+      "teams": [
+        {
+          "slug": "classroom50-group-d235d41f239f63b3-1",
+          "id": 20458980,
+          "name": "Project2-Group0",
+          "members": [
+            "scao53"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-d235d41f239f63b3-2",
+          "id": 20465932,
+          "name": "Project2-Group6",
+          "members": [
+            "mollyecrawford25",
+            "TinaLu56"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-d235d41f239f63b3-4",
+          "id": 20467002,
+          "name": "Project2-Group8",
+          "members": [
+            "macarr103",
+            "siningemma"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-d235d41f239f63b3-5",
+          "id": 20467088,
+          "members": [
+            "dperezorellana-ui"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-d235d41f239f63b3-6",
+          "id": 20467125,
+          "name": "Project2-Group2",
+          "members": [
+            "gdomefa",
+            "dperezorellana-ui"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-d235d41f239f63b3-7",
+          "id": 20467321,
+          "name": "Project2-Group4",
+          "members": [
+            "maryalicewieland",
+            "eshehab3137"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-d235d41f239f63b3-8",
+          "id": 20467360,
+          "name": "Project2-Group3",
+          "members": [
+            "MadelynHu",
+            "Rachjmg"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-d235d41f239f63b3-9",
+          "id": 20467391,
+          "name": "Project2-Group7",
+          "members": [
+            "folayemi294",
+            "JuliaBergles1"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-d235d41f239f63b3-10",
+          "id": 20590205,
+          "name": "Project2-Group5",
+          "members": [
+            "FridaLi0122",
+            "ZoeYang915"
+          ],
+          "formation": "student"
+        },
+        {
+          "slug": "classroom50-group-d235d41f239f63b3-11",
+          "id": 20590988,
+          "name": "Project2-Group1",
+          "members": [
+            "mienkaufman8",
+            "EileenXu524"
+          ],
+          "formation": "student"
+        }
+      ]
     }
   }
 }

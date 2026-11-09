@@ -1196,6 +1196,12 @@
           "kind": "commit"
         }
       ]
+    },
+    "project2": {
+      "type": "team",
+      "entries": [],
+      "collected_at": "2026-11-09T13:51:16Z",
+      "detected": []
     }
   }
 }

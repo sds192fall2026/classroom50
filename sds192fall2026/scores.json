@@ -1206,8 +1206,19 @@
     "project2": {
       "type": "team",
       "entries": [],
-      "collected_at": "2026-11-11T14:36:54Z",
+      "collected_at": "2026-11-11T18:29:04Z",
       "detected": [
+        {
+          "owner": "group-10",
+          "count": 1,
+          "latest_datetime": "2026-11-11T16:24:47Z",
+          "kind": "commit",
+          "member_usernames": [
+            "fridali0122",
+            "zoeyang915"
+          ],
+          "team_slug": "classroom50-group-d235d41f239f63b3-10"
+        },
         {
           "owner": "group-11",
           "count": 10,
@@ -1222,8 +1233,8 @@
         },
         {
           "owner": "group-2",
-          "count": 14,
-          "latest_datetime": "2026-11-11T14:18:47Z",
+          "count": 15,
+          "latest_datetime": "2026-11-11T16:10:11Z",
           "kind": "commit",
           "member_usernames": [
             "mollyecrawford25",

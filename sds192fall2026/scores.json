@@ -1208,6 +1208,80 @@
       "entries": [],
       "collected_at": "2026-11-09T13:51:16Z",
       "detected": []
+    },
+    "lab7": {
+      "type": "team",
+      "entries": [],
+      "collected_at": "2026-11-11T14:32:02Z",
+      "detected": [
+        {
+          "owner": "group-10",
+          "count": 7,
+          "latest_datetime": "2026-11-11T13:56:10Z",
+          "kind": "commit",
+          "member_usernames": [
+            "eshehab3137",
+            "maryalicewieland"
+          ],
+          "team_slug": "classroom50-group-9f22f334e34ade68-10"
+        },
+        {
+          "owner": "group-2",
+          "count": 5,
+          "latest_datetime": "2026-11-02T14:16:58Z",
+          "kind": "commit",
+          "member_usernames": [
+            "mollyecrawford25",
+            "tinalu56"
+          ],
+          "team_slug": "classroom50-group-9f22f334e34ade68-2"
+        },
+        {
+          "owner": "group-4",
+          "count": 8,
+          "latest_datetime": "2026-11-03T22:54:28Z",
+          "kind": "commit",
+          "member_usernames": [
+            "macarr103",
+            "siningemma"
+          ],
+          "team_slug": "classroom50-group-9f22f334e34ade68-4"
+        },
+        {
+          "owner": "group-5",
+          "count": 3,
+          "latest_datetime": "2026-11-09T19:38:17Z",
+          "kind": "commit",
+          "member_usernames": [
+            "fridali0122",
+            "zoeyang915"
+          ],
+          "team_slug": "classroom50-group-9f22f334e34ade68-5"
+        },
+        {
+          "owner": "group-6",
+          "count": 9,
+          "latest_datetime": "2026-11-09T13:23:20Z",
+          "kind": "commit",
+          "member_usernames": [
+            "folayemi294",
+            "juliabergles1"
+          ],
+          "team_slug": "classroom50-group-9f22f334e34ade68-6"
+        },
+        {
+          "owner": "group-7",
+          "count": 8,
+          "latest_datetime": "2026-11-11T03:02:31Z",
+          "kind": "commit",
+          "member_usernames": [
+            "eileenxu524",
+            "karenabdelsayed",
+            "mienkaufman8"
+          ],
+          "team_slug": "classroom50-group-9f22f334e34ade68-7"
+        }
+      ]
     }
   }
 }

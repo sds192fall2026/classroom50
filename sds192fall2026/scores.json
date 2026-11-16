@@ -1280,7 +1280,7 @@
     "lab7": {
       "type": "team",
       "entries": [],
-      "collected_at": "2026-11-11T14:32:02Z",
+      "collected_at": "2026-11-16T19:08:33Z",
       "detected": [
         {
           "owner": "group-10",
@@ -1303,6 +1303,17 @@
             "tinalu56"
           ],
           "team_slug": "classroom50-group-9f22f334e34ade68-2"
+        },
+        {
+          "owner": "group-3",
+          "count": 10,
+          "latest_datetime": "2026-11-11T20:56:22Z",
+          "kind": "commit",
+          "member_usernames": [
+            "dperezorellana-ui",
+            "gdomefa"
+          ],
+          "team_slug": "classroom50-group-9f22f334e34ade68-3"
         },
         {
           "owner": "group-4",
@@ -1348,6 +1359,17 @@
             "mienkaufman8"
           ],
           "team_slug": "classroom50-group-9f22f334e34ade68-7"
+        },
+        {
+          "owner": "group-9",
+          "count": 7,
+          "latest_datetime": "2026-11-12T20:56:35Z",
+          "kind": "commit",
+          "member_usernames": [
+            "madelynhu",
+            "rachjmg"
+          ],
+          "team_slug": "classroom50-group-9f22f334e34ade68-9"
         }
       ]
     }

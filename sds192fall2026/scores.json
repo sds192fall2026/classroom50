@@ -1206,12 +1206,12 @@
     "project2": {
       "type": "team",
       "entries": [],
-      "collected_at": "2026-11-11T18:29:04Z",
+      "collected_at": "2026-11-18T13:54:56Z",
       "detected": [
         {
           "owner": "group-10",
-          "count": 1,
-          "latest_datetime": "2026-11-11T16:24:47Z",
+          "count": 6,
+          "latest_datetime": "2026-11-13T21:06:48Z",
           "kind": "commit",
           "member_usernames": [
             "fridali0122",
@@ -1221,8 +1221,8 @@
         },
         {
           "owner": "group-11",
-          "count": 10,
-          "latest_datetime": "2026-11-11T14:03:22Z",
+          "count": 77,
+          "latest_datetime": "2026-11-18T04:32:03Z",
           "kind": "commit",
           "member_usernames": [
             "eileenxu524",
@@ -1233,8 +1233,8 @@
         },
         {
           "owner": "group-2",
-          "count": 15,
-          "latest_datetime": "2026-11-11T16:10:11Z",
+          "count": 32,
+          "latest_datetime": "2026-11-14T01:21:05Z",
           "kind": "commit",
           "member_usernames": [
             "mollyecrawford25",
@@ -1244,8 +1244,8 @@
         },
         {
           "owner": "group-4",
-          "count": 5,
-          "latest_datetime": "2026-11-11T14:14:46Z",
+          "count": 26,
+          "latest_datetime": "2026-11-14T00:08:31Z",
           "kind": "commit",
           "member_usernames": [
             "macarr103",
@@ -1255,8 +1255,8 @@
         },
         {
           "owner": "group-6",
-          "count": 15,
-          "latest_datetime": "2026-11-11T14:14:05Z",
+          "count": 78,
+          "latest_datetime": "2026-11-17T22:51:23Z",
           "kind": "commit",
           "member_usernames": [
             "dperezorellana-ui",
@@ -1265,9 +1265,31 @@
           "team_slug": "classroom50-group-d235d41f239f63b3-6"
         },
         {
+          "owner": "group-7",
+          "count": 24,
+          "latest_datetime": "2026-11-15T01:47:20Z",
+          "kind": "commit",
+          "member_usernames": [
+            "eshehab3137",
+            "maryalicewieland"
+          ],
+          "team_slug": "classroom50-group-d235d41f239f63b3-7"
+        },
+        {
+          "owner": "group-8",
+          "count": 3,
+          "latest_datetime": "2026-11-17T00:54:39Z",
+          "kind": "commit",
+          "member_usernames": [
+            "madelynhu",
+            "rachjmg"
+          ],
+          "team_slug": "classroom50-group-d235d41f239f63b3-8"
+        },
+        {
           "owner": "group-9",
-          "count": 1,
-          "latest_datetime": "2026-11-10T22:05:02Z",
+          "count": 16,
+          "latest_datetime": "2026-11-14T00:08:00Z",
           "kind": "commit",
           "member_usernames": [
             "folayemi294",

@@ -165,6 +165,24 @@
       "grading": {
         "mode": "off"
       }
+    },
+    {
+      "slug": "project3",
+      "name": "Project3",
+      "mode": "team",
+      "autograder": "default",
+      "feedback_pr": true,
+      "no_autograder": true,
+      "template": {
+        "owner": "sds192fall2026",
+        "repo": "Project3",
+        "branch": "main"
+      },
+      "max_group_size": 3,
+      "team_formation": "student",
+      "grading": {
+        "mode": "off"
+      }
     }
   ]
 }
